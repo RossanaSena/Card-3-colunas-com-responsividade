@@ -27,8 +27,8 @@ Os usuários devem ser capazes de ver:
 
 ### Captura de tela
 
-![Design Mobile](./design/mobile-design.jpg)
-![Design Desktop](./design/active-states.jpg)
+[Design Mobile](./design/mobile-design.jpg)
+[Design Desktop](./design/active-states.jpg)
 
 ### Links
 
