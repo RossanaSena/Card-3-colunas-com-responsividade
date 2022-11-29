@@ -6,94 +6,97 @@
 
 :root {
     /* colors */
-    --mainBackground: hsla(0, 0%, 100%, 0.75);
-    --background-color-first-card: #E28726;
-    --background-color-second-card: #006870;
-    --background-color-tertiary-card: #004241;
-    --background-headings-buttons: #F2F2F2;
-    --footer: #f51cad;
+    --white-transparency: hsla(0, 0%, 100%, 0.75);
+    --bright-orange: #E28726;
+    --dark-cyan: #006870;
+    --very-dark-cyan: #004241;
+    --very-light-gray : #F2F2F2;
 
     /* font */
-    --title-fontSize: 40px;
+    --title-fontSize: 30px;
     --title-fontFamily: 'Big Shoulders Display', cursive;
-    --paragraph-fontSize: 15px;
+    --paragraph-fontSize: 10px;
     --paragraph-fontFamily: 'Lexend Deca', sans-serif;
-
-    /* z-index */
-    --z-indexBackground: 1;
-    --z-indexCardBack: 2;
-    --z-indexCardFront: 3;
-    --z-indexCircles: 4;
 }
 
-body, footer {
+body {
     font-size: var(--main-fontSize);
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
 }
 
 /* MOBILE */
 
-#mainBackgroud {
-    display: flex;
-    align-items: center;
-    width: 100% ;
-    height:100%;
-    color: var(--mainBackground);
-}
-
-#sedans, #suvs, #luxury {
+.mainBackground {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--white-transparency);
+    padding: 1rem;
 }
 
-#sedans {
-    background-color: var(--background-color-first-card);
+.carsModel {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 1rem;
+}
+
+.carsIcon {
+    width: 25%;
+    margin: 2rem 0 2rem 0;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
     border-radius: 1rem 1rem 0 0;
 }
 
-#suvs {
-    background-color: var(--background-color-second-card);
+.suvs {
+    background-color: var(--dark-cyan);
 }
 
-#luxury {
-    background-color: var(--background-color-tertiary-card);
+.luxury {
+    background-color: var(--very-dark-cyan);
     border-radius: 0 0 1rem 1rem;
 }
 
+.containerText {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
-    width: 35%;
+    width: 100%;
     height: 30%;
     font-size: var(--title-fontSize);
     font-family: var(--title-fontFamily);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    border: 1px solid red;
+    padding-bottom: 1rem;
 }
 
-.paragraph {
-    width: 65%;
+.paragraph {    
+    width: 100%;
     height: 20%;
     font-size: var(--paragraph-fontSize);
     font-family: var(--paragraph-fontFamily);
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    border: 1px solid blue;
+    line-height: 1.5rem;
 }
 
-/* DESKTOP */
-
-
 /* Footer */
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0; 
+}
 
 .attribution {
     font-size: var(--main-fontSize);
     font-family: var(--title-fontFamily);
-    text-align: center;
 }
 
 .attribution a {
     text-decoration: none;
-    color: var(--footer);
 }
