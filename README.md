@@ -57,8 +57,9 @@ Os usuários devem ser capazes de ver:
 
 ## Autora
 
-- [Rossana Sena](https://linktr.ee/rossanasena)
+- <a href="https://linktr.ee/rossanasena" target="_blank" rel="noopener noreferrer">Rossana Sena</a>
+
 
 ## Agradecimentos
 
-Ao [Pedro Marins](https://www.linkedin.com/in/pedromarins/) e [Henrique de Andrade](https://www.linkedin.com/in/henrique-de-andrade/), queridos mentores que instigam a melhora contínua, aos tutores da equipe da mentoria Conquiste Sua Vaga, que acompanham a evolução e dão dicas valiosas para que o código esteja pautado nas boas práticas e, por fim, mas muito impotante, aos colegas da mentoria e, em específico, os colegas da turma 20, que dividem suas dificuldades e soluções para que possamos crescer juntos! 
+Ao <a href="https://www.linkedin.com/in/pedromarins/" target="_blank" rel="noopener noreferrer">Pedro Marins</a> e <a href="https://www.linkedin.com/in/henrique-de-andrade/" target="_blank" rel="noopener noreferrer">Henrique de Andrade</a>, queridos mentores que instigam a melhora contínua, aos tutores da equipe da mentoria Conquiste Sua Vaga, que acompanham a evolução e dão dicas valiosas para que o código esteja pautado nas boas práticas e, por fim, mas muito impotante, aos colegas da mentoria e, em específico, os colegas da turma 20, que dividem suas dificuldades e soluções para que possamos crescer juntos! 
