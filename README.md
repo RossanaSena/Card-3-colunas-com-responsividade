@@ -44,11 +44,11 @@ Os usuários devem ser capazes de ver:
 
 ### O que aprendi
 
-<!-- Irei recapitular principais aprendizados. Colocar exemplos. -->
+Em breve <!-- Irei recapitular principais aprendizados. Colocar exemplos. -->
 
 ### Desenvolvimento contínuo
 
-<!-- Irei dlinear as áreas que desejo continuar focando em projetos futuros. Podem ser conceitos com os quais ainda não estou totalmente confortável ou técnicas que foram úteis e que irei refinar e aperfeiçoar. -->
+Em breve <!-- Irei dlinear as áreas que desejo continuar focando em projetos futuros. Podem ser conceitos com os quais ainda não estou totalmente confortável ou técnicas que foram úteis e que irei refinar e aperfeiçoar. -->
 
 ### Recursos úteis
 <!-- 
