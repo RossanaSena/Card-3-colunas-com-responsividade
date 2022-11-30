@@ -27,12 +27,12 @@ Os usuários devem ser capazes de ver:
 
 ### Captura de tela
 
-[Design Mobile](./design/mobile-design.jpg)
-[Design Desktop](./design/active-states.jpg)
+[Design para mobile](./assets/design/mobile-design.jpg)
+[Design para desktop](./assets/design/desktop-design.jpg)
 
 ### Links
 
-- [Deploy](https://your-solution-url.com)
+- [Deploy](card-3-colunas-com-responsividade-pwiw2iavu-rossanasena.vercel.app)
 
 ## Meu processo
 
@@ -44,11 +44,11 @@ Os usuários devem ser capazes de ver:
 
 ### O que aprendi
 
-Irei recapitular principais aprendizados. Colocar exemplos.
+<!-- Irei recapitular principais aprendizados. Colocar exemplos. -->
 
 ### Desenvolvimento contínuo
 
-Irei dlinear as áreas que desejo continuar focando em projetos futuros. Podem ser conceitos com os quais ainda não estou totalmente confortável ou técnicas que foram úteis e que irei refinar e aperfeiçoar.
+<!-- Irei dlinear as áreas que desejo continuar focando em projetos futuros. Podem ser conceitos com os quais ainda não estou totalmente confortável ou técnicas que foram úteis e que irei refinar e aperfeiçoar. -->
 
 ### Recursos úteis
 <!-- 
@@ -57,8 +57,7 @@ Irei dlinear as áreas que desejo continuar focando em projetos futuros. Podem s
 
 ## Autora
 
-- LinkedIn - [Rossana Sena](https://github.com/RossanaSena)
-- GitHub - [Rossana Sena](https://www.linkedin.com/in/rossanasena/)
+- [Rossana Sena](https://linktr.ee/rossanasena)
 
 ## Agradecimentos
 

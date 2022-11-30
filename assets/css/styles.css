@@ -20,12 +20,19 @@
 }
 
 body {
+    position: relative;
     font-size: var(--main-fontSize);
     width: 100%;
     min-height: 100vh;
 }
 
 /* MOBILE */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
 
 .mainBackground {
     display: flex;
@@ -34,7 +41,7 @@ body {
     width: 100%;
     height: 100%;
     color: var(--white-transparency);
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .carsModel {
@@ -63,10 +70,6 @@ body {
     border-radius: 0 0 1rem 1rem;
 }
 
-.containerText {
-    display: flex;
-    flex-direction: column;
-}
 
 .title {
     width: 100%;
@@ -89,14 +92,11 @@ body {
 .footer {
     position: absolute;
     text-align: center;
+    width: 100%;
     bottom: 0; 
 }
 
 .attribution {
     font-size: var(--main-fontSize);
     font-family: var(--title-fontFamily);
-}
-
-.attribution a {
-    text-decoration: none;
 }
