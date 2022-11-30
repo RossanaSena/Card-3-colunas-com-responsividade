@@ -57,8 +57,7 @@ Os usuários devem ser capazes de ver:
 
 ## Autora
 
-- <a href="https://linktr.ee/rossanasena" target="_blank" rel="noopener noreferrer">Rossana Sena</a>
-
+- [Rossana Sena](https://linktr.ee/rossanasena)
 
 ## Agradecimentos
 
