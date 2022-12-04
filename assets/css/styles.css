@@ -19,144 +19,29 @@
     --paragraph-fontFamily: 'Lexend Deca', sans-serif;
 }
 
-body {
+body, main {
     position: relative;
-    font-size: var(--main-fontSize);
+    display: flex;
     width: 100%;
     min-height: 100vh;
 }
 
 /* MOBILE */
 
-@media screen and (max-width: 500px) {
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    .mainBackground {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        color: var(--white-transparency);
-        padding-bottom: 0.5rem;
-    }
-
-    .carsModel {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        padding: 1rem;
-    }
-
-    .carsIcon {
-        width: 25%;
-        margin: 1rem 0 1rem 0;
-    }
-
-    .sedans {
-        background-color: var(--bright-orange);
-        border-radius: .5rem .5rem 0 0;
-    }
-
-    .suvs {
-        background-color: var(--dark-cyan);
-    }
-
-    .luxury {
-        background-color: var(--very-dark-cyan);
-        border-radius: 0 0 .5rem .5rem;
-    }
-
-    .title {
-        width: 100%;
-        height: 30%;
-        font-size: var(--title-fontSize);
-        font-family: var(--title-fontFamily);
-        padding-bottom: 1rem;
-    }
-
-    .paragraph {
-        width: 100%;
-        height: 20%;
-        font-size: var(--paragraph-fontSize);
-        font-family: var(--paragraph-fontFamily);
-        line-height: 1.5rem;
-    }
-
-    .text {
-        display: flex;
-        border: none;
-        width: 50%;
-        border-radius: 1rem;
-        padding: .3rem;
-    }
-
-    .btn {
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        font-size: var(--paragraph-fontSize);
-        font-family: var(--paragraph-fontFamily);
-        border: none;
-        border-radius: 1rem;
-        padding: .6rem;
-        margin-top: 1rem;
-    }
-
-    .btnSedansText {
-        color: var(--bright-orange);
-    }
-
-    .btnSuvsText {
-        color: var(--dark-cyan);
-    }
-
-    .btnLuxuryText {
-        color: var(--very-dark-cyan);
-    }
-
-    /* Footer */
-
-    .footer {
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        bottom: 0;
-    }
-
-    .attribution {
-        font-size: var(--main-fontSize);
-        font-family: var(--title-fontFamily);
-    }
-
-    .attribution a {
-        font-size: var(--main-fontSize);
-        font-family: var(--title-fontFamily);
-        color: var(--crimson);
-    }
-}
-
-/* DESKTOP */
-
 .container {
     display: flex;
-    flex-direction: row;
-    padding: 1rem;
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .mainBackground {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
     color: var(--white-transparency);
-    padding-bottom: 0.5rem;
+    padding-bottom: 3rem;
 }
 
 .carsModel {
@@ -164,11 +49,6 @@ body {
     flex-direction: column;
     width: 60%;
     padding: 1rem;
-}
-
-.carsIcon {
-    width: 25%;
-    margin: 1rem 0 1rem 0;
 }
 
 .sedans {
@@ -183,4 +63,105 @@ body {
 .luxury {
     background-color: var(--very-dark-cyan);
     border-radius: 0 0 .5rem .5rem;
+}
+
+.title {
+    width: 100%;
+    height: 10%;
+    font-size: var(--title-fontSize);
+    font-family: var(--title-fontFamily);
+    padding-bottom: 1rem;
+}
+
+.paragraph {
+    width: 100%;
+    height: 40%;
+    font-size: var(--paragraph-fontSize);
+    font-family: var(--paragraph-fontFamily);
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.text {
+    display: flex;
+    border: none;
+    width: 50%;
+    border-radius: 1rem;
+    padding: .3rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: var(--paragraph-fontSize);
+    font-family: var(--paragraph-fontFamily);
+    border: none;
+    border-radius: 1rem;
+    padding: .6rem;
+    margin-top: 1rem;
+}
+
+.btnSedansText {
+    color: var(--bright-orange);
+}
+
+.btnSuvsText {
+    color: var(--dark-cyan);
+}
+
+.btnLuxuryText {
+    color: var(--very-dark-cyan);
+}
+
+.btn :hover {
+    cursor: pointer;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 500px) {
+    .mainBackground {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .carsModel {
+        flex-direction: row;
+        width: 15%;
+        height: 50%;
+    }
+
+    .sedans {
+        border-radius: .5rem 0 0 .5rem;
+    }
+
+    .luxury {
+        border-radius: 0 .5rem .5rem 0;
+    }
+
+    .btn {
+        width: 70%;
+    }
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+.attribution {
+    font-size: var(--main-fontSize);
+    font-family: var(--title-fontFamily);
+    padding: 2rem;
+}
+
+.attribution a {
+    font-size: var(--main-fontSize);
+    font-family: var(--title-fontFamily);
+    color: var(--crimson);
 }
