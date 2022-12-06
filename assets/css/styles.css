@@ -31,7 +31,7 @@ body, main {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .mainBackground {
@@ -46,9 +46,12 @@ body, main {
 
 .carsModel {
     display: flex;
-    flex-direction: column;
-    width: 60%;
     padding: 1rem;
+}
+
+.carsIcon {
+    width: 40%;
+    padding-bottom: 1rem;
 }
 
 .sedans {
@@ -70,7 +73,7 @@ body, main {
     height: 10%;
     font-size: var(--title-fontSize);
     font-family: var(--title-fontFamily);
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .paragraph {
@@ -78,7 +81,7 @@ body, main {
     height: 40%;
     font-size: var(--paragraph-fontSize);
     font-family: var(--paragraph-fontFamily);
-    line-height: 1.5rem;
+    line-height: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -100,22 +103,37 @@ body, main {
     border-radius: 1rem;
     padding: .6rem;
     margin-top: 1rem;
+    background: var(--very-light-gray);
 }
 
-.btnSedansText {
+.btn:hover {
+    cursor: pointer;
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
+
+.btnSedansText{
     color: var(--bright-orange);
+}
+
+.btnSedansText:hover{
+    background: var(--bright-orange);
 }
 
 .btnSuvsText {
     color: var(--dark-cyan);
 }
 
+.btnSuvsText:hover{
+    background: var(--dark-cyan);  
+}
+
 .btnLuxuryText {
     color: var(--very-dark-cyan);
 }
 
-.btn :hover {
-    cursor: pointer;
+.btnLuxuryText:hover{
+    background: var(--very-dark-cyan);
 }
 
 /* DESKTOP */
