@@ -15,7 +15,7 @@
     /* font */
     --title-fontSize: 30px;
     --title-fontFamily: 'Big Shoulders Display', cursive;
-    --paragraph-fontSize: 10px;
+    --paragraph-fontSize: 11px;
     --paragraph-fontFamily: 'Lexend Deca', sans-serif;
 }
 
@@ -50,8 +50,8 @@ body, main {
 }
 
 .carsIcon {
-    width: 40%;
-    padding-bottom: 1rem;
+    width: 30%;
+    padding-bottom: 1.5rem;
 }
 
 .sedans {
@@ -77,20 +77,12 @@ body, main {
 }
 
 .paragraph {
-    width: 100%;
+    width: 91%;
     height: 40%;
     font-size: var(--paragraph-fontSize);
     font-family: var(--paragraph-fontFamily);
-    line-height: 1rem;
+    line-height: 1.2rem;
     padding-bottom: 1rem;
-}
-
-.text {
-    display: flex;
-    border: none;
-    width: 50%;
-    border-radius: 1rem;
-    padding: .3rem;
 }
 
 .btn {
@@ -147,7 +139,7 @@ body, main {
     .carsModel {
         flex-direction: row;
         width: 15%;
-        height: 50%;
+        height: 62%;
     }
 
     .sedans {
@@ -159,7 +151,7 @@ body, main {
     }
 
     .btn {
-        width: 70%;
+        width: 60%;
     }
 }
 
